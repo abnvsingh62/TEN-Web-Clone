@@ -1,0 +1,167 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.nav-title {
+  color: red;
+}
+.heading-text {
+  position: relative;
+  color: orange;
+  bottom: 10rem;
+  font-size: 3rem;
+}
+.about-color {
+  background-color: rgb(168, 63, 63);
+}
+.about-text {
+  text-align: center;
+  letter-spacing: 0.5rem;
+  padding: 0.5rem;
+}
+
+.discord-sec {
+  margin-top: 3%;
+}
+.discord-para1 {
+  position: relative;
+
+  bottom: 25rem;
+  font-size: 3.5rem;
+  background: linear-gradient(
+    to right,
+    #e20d13,
+    #f0e300,
+    #a4c615,
+    #4363ab,
+    #be4a94,
+    #e30922
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.discord-para2 {
+  position: relative;
+  bottom: 25rem;
+  font-size: 4.5rem;
+  background: linear-gradient(
+    to right,
+    #e20d13,
+    #f0e300,
+    #a4c615,
+    #4363ab,
+    #be4a94,
+    #e30922
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.discord-button {
+  position: relative;
+  color: white;
+  bottom: 25rem;
+}
+.our-course {
+  position: relative;
+  bottom: 15rem;
+  font-size: 1rem;
+}
+.enter-course {
+  position: relative;
+  color: rgb(231, 98, 49);
+  bottom: 15rem;
+  font-size: 1rem;
+}
+.explore-sec {
+  position: relative;
+  top: 1rem;
+  font-size: 3rem;
+  color: white;
+}
+.explore-sec-button {
+  font-size: 1.5rem;
+}
+.benefit {
+  background-color: black;
+  color: white;
+  position: relative;
+  bottom: 1rem;
+}
+.spacing {
+  letter-spacing: 0.1rem;
+}
+.testo {
+  color: red;
+}
+.power {
+  position: relative;
+  bottom: 16rem;
+}
+.power-heading {
+  color: white;
+  font-size: 3rem;
+}
+.explore-sec-button1 {
+  font-size: 1.8rem;
+}
+.footer-content {
+  background-color: rgb(245, 6, 6);
+}
+.about-background {
+  background-color: red;
+}
+.about-one {
+  font-size: 3.5rem;
+}
+.about-two {
+  text-align: center;
+  letter-spacing: 0.2rem;
+}
+.contact-head {
+  text-align: left;
+}
+.faq-col {
+  background-color: rgb(214, 32, 0);
+}
+.faq-head {
+  color: white;
+}
+.faq-body {
+  text-align: left;
+}
+a {
+  text-decoration: none;
+}
+.footer-des {
+  text-align: center;
+}
+@media only screen and (max-width: 767px) and (min-width: 200px) {
+  .discord-para1 {
+    position: relative;
+    color: rgb(168, 63, 63);
+    bottom: 12rem;
+    font-size: 2.5rem;
+  }
+  .discord-para2 {
+    position: relative;
+    color: yellow;
+    bottom: 12rem;
+    font-size: 2.5rem;
+  }
+  .discord-button {
+    position: relative;
+    color: white;
+    bottom: 12rem;
+  }
+  .power {
+    position: relative;
+    bottom: 10rem;
+  }
+  .power-heading {
+    color: white;
+    font-size: 1.5rem;
+  }
+  .explore-sec-button1 {
+    font-size: 1rem;
+  }
+}
